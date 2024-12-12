@@ -101,9 +101,9 @@ const ReportsPage: React.FC = () => {
         "Restrict procurement to approved vendors and audit regularly",
     },
   ]);
-  const [totalItems, setTotalItems] = useState<number>(100);
-  const [damagedItems, setDamagedItems] = useState<number>(100);
-  const [workingItems, setWorkingItems] = useState<number>(100);
+  const [totalItems, setTotalItems] = useState<number>(5);
+  const [damagedItems, setDamagedItems] = useState<number>(1);
+  const [workingItems, setWorkingItems] = useState<number>(4);
 
   const [data, setData] = useState<any>({
     complianceData,
@@ -128,34 +128,34 @@ const ReportsPage: React.FC = () => {
         console.error(e);
       }
     };
-    const fetchData = async () => {
-      try {
+    // const fetchData = async () => {
+    //   try {
         // if (user == "admin") {
-        const response = await fetch("/api/reports/audit", {
-          method: "GET",
-        });
-        if (!response.ok) throw new Error("Failed to fetch data");
+        // const response = await fetch("/api/reports/audit", {
+        //   method: "GET",
+        // });
+        // if (!response.ok) throw new Error("Failed to fetch data");
 
-        console.log(response);
-        const result = await response.json();
+        // console.log(response);
+        // const result = await response.json();
         
-        setData(result);
-        console.log(result);
-        setTotalItems(result.totalItems);
-        setDamagedItems(result.damagedItems);
-        setWorkingItems(result.workingItems);
+        // setData(result);
+        // console.log(result);
+    //     // setTotalItems(result.totalItems);
+    //     // setDamagedItems(result.damagedItems);
+    //     // setWorkingItems(result.workingItems);
 
-      } catch (err: any) {
-        // alert("Error fetching data: " + err.message);
-        toast.error("Error fetching data", {
-          position: "top-right",
-          autoClose: 3000,
-        });
-      }
-    };
+    //   } catch (err: any) {
+    //     // alert("Error fetching data: " + err.message);
+    //     // toast.error("Error fetching data", {
+    //     //   position: "top-right",
+    //     //   autoClose: 3000,
+    //     });
+    //   }
+    // };
 
     fetchSession();
-    fetchData();
+    // fetchData();
   }, []);
 
   return (

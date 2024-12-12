@@ -114,3 +114,4 @@ const StackedBarChart: React.FC = () => {
 };
 
 export default StackedBarChart;
+

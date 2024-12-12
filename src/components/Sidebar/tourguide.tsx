@@ -9,7 +9,7 @@ const TourGuide: React.FC = () => {
   const steps: Step[] = [
     {
       target: "body",
-      content: "Welcome to Suraksha Sanchanyam!",
+      content: "Welcome to SurakshaSanchay!",
       placement: "center",
       disableBeacon: true, // Ensures the tour starts immediately
     },

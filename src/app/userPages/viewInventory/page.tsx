@@ -129,7 +129,7 @@ const PackageTable = () => {
           ))}
         </select>
 
-        {/* Availability Filter */}
+        {/*{/*Availability Filter*}
         <select
           className="rounded-lg border px-4 py-2 shadow-sm  dark:border-form-strokedark dark:bg-form-input dark:text-white"
           value={availabilityFilter || ""}
@@ -141,7 +141,7 @@ const PackageTable = () => {
               {status.name}
             </option>
           ))}
-        </select>
+        </select>*/}
       </div>
 
       {/* Card Layout */}
@@ -156,7 +156,7 @@ const PackageTable = () => {
                 <h3 className="text-lg font-semibold text-gray-800 dark:border-strokedark dark:bg-boxdark dark:text-white">
                   {pkg.type}
                 </h3>
-                <span
+                {/*<span
                   className={`rounded-lg px-3 py-1 text-xs font-medium ${
                     pkg.status === "AVAILABLE"
                       ? "bg-green-100 text-green-600"
@@ -164,7 +164,7 @@ const PackageTable = () => {
                   }`}
                 >
                   {pkg.status}
-                </span>
+                </span>*/}
               </div>
               <p className="mb-2 text-sm text-gray-600 dark:border-strokedark dark:bg-boxdark dark:text-white">
                 <strong>Category:</strong> {pkg.category.replace(/_/g, " ")}

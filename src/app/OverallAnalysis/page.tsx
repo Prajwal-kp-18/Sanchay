@@ -2,7 +2,7 @@ import React from 'react';
 import Chart1 from './cat_tot';
 import Chart2 from './cond_main';
 import Chart3 from './loc_main';
-import Chart4 from './quantityCategory';
+// import Chart4 from './quantityCategory';
 import Chart5 from './main_pricerat';
 import Chart6 from './count_loc';
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
@@ -30,10 +30,10 @@ Items in the "Lost" and "Discarded" categories have slightly higher average main
 Shahpura Police Station and Ayodhya Nagar Police Station incur the highest average maintenance charges.
 Locations with lower maintenance costs may indicate better equipment handling or newer inventory.</p>
         </div>
-        <div className="chart-container border p-4 rounded shadow">
+        {/* <div className="chart-container border p-4 rounded shadow">
           <Chart4 />
           <p className="text-sm mt-2 text-lg md:text-xl font-bold mb-4">Quantity-wise Category Distribution refers to the distribution of quantities across different categories. In the context of the chart, it means showing how the total quantity is distributed among different categories.</p>
-        </div>
+        </div> */}
         <div className="chart-container border p-4 rounded shadow">
           <Chart5 />
           <p className="text-sm mt-2 text-lg md:text-xl font-bold mb-4">This bar chart highlights the maintenance-to-price ratio for each item category.

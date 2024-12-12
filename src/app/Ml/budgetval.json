@@ -1,0 +1,2482 @@
+[
+  {
+    "Year": 1994,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.2581,
+    "Total Maintenance Cost": 0.17378,
+    "Total Price": 0.43188,
+    "Annual Budget": 0.51826
+  },
+  {
+    "Year": 1994,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.62,
+    "Total Maintenance Cost": 0.40719,
+    "Total Price": 1.02719,
+    "Annual Budget": 1.23263
+  },
+  {
+    "Year": 1994,
+    "Category": "Firearms",
+    "Total Buy Price": 0.52,
+    "Total Maintenance Cost": 0.47939,
+    "Total Price": 0.99939,
+    "Annual Budget": 1.19927
+  },
+  {
+    "Year": 1994,
+    "Category": "Forensic",
+    "Total Buy Price": 0.16932,
+    "Total Maintenance Cost": 0.00952,
+    "Total Price": 0.17884,
+    "Annual Budget": 0.21461
+  },
+  {
+    "Year": 1994,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00939,
+    "Total Maintenance Cost": 0.0007,
+    "Total Price": 0.01009,
+    "Annual Budget": 0.01211
+  },
+  {
+    "Year": 1994,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.39874,
+    "Total Maintenance Cost": 0.00901,
+    "Total Price": 0.40775,
+    "Annual Budget": 0.4893
+  },
+  {
+    "Year": 1994,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.00282,
+    "Total Maintenance Cost": 0.00359,
+    "Total Price": 0.00641,
+    "Annual Budget": 0.00769
+  },
+  {
+    "Year": 1994,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00242,
+    "Total Maintenance Cost": 0.00078,
+    "Total Price": 0.0032,
+    "Annual Budget": 0.00384
+  },
+  {
+    "Year": 1994,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.08689,
+    "Total Maintenance Cost": 0.00857,
+    "Total Price": 0.09546,
+    "Annual Budget": 0.11455
+  },
+  {
+    "Year": 1994,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 10.74,
+    "Total Maintenance Cost": 1.61858,
+    "Total Price": 12.35858,
+    "Annual Budget": 14.8303
+  },
+  {
+    "Year": 1995,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.28015,
+    "Total Maintenance Cost": 0.25427,
+    "Total Price": 0.53442,
+    "Annual Budget": 0.6413
+  },
+  {
+    "Year": 1995,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.65,
+    "Total Maintenance Cost": 0.08926,
+    "Total Price": 0.73926,
+    "Annual Budget": 0.88711
+  },
+  {
+    "Year": 1995,
+    "Category": "Firearms",
+    "Total Buy Price": 0.55,
+    "Total Maintenance Cost": 0.3705,
+    "Total Price": 0.9205,
+    "Annual Budget": 1.1046
+  },
+  {
+    "Year": 1995,
+    "Category": "Forensic",
+    "Total Buy Price": 0.15193,
+    "Total Maintenance Cost": 0.01787,
+    "Total Price": 0.1698,
+    "Annual Budget": 0.20376
+  },
+  {
+    "Year": 1995,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00439,
+    "Total Maintenance Cost": 0.0008,
+    "Total Price": 0.00519,
+    "Annual Budget": 0.00623
+  },
+  {
+    "Year": 1995,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.37262,
+    "Total Maintenance Cost": 0.02892,
+    "Total Price": 0.40154,
+    "Annual Budget": 0.48185
+  },
+  {
+    "Year": 1995,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02406,
+    "Total Maintenance Cost": 0.00586,
+    "Total Price": 0.02992,
+    "Annual Budget": 0.0359
+  },
+  {
+    "Year": 1995,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00312,
+    "Total Maintenance Cost": 0.00171,
+    "Total Price": 0.00483,
+    "Annual Budget": 0.0058
+  },
+  {
+    "Year": 1995,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.07909,
+    "Total Maintenance Cost": 0.01448,
+    "Total Price": 0.09357,
+    "Annual Budget": 0.11228
+  },
+  {
+    "Year": 1995,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 11.29,
+    "Total Maintenance Cost": 1.0099,
+    "Total Price": 12.2999,
+    "Annual Budget": 14.75988
+  },
+  {
+    "Year": 1996,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.08133,
+    "Total Maintenance Cost": 0.25667,
+    "Total Price": 0.338,
+    "Annual Budget": 0.4056
+  },
+  {
+    "Year": 1996,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.68,
+    "Total Maintenance Cost": 0.1981,
+    "Total Price": 0.8781,
+    "Annual Budget": 1.05372
+  },
+  {
+    "Year": 1996,
+    "Category": "Firearms",
+    "Total Buy Price": 0.58,
+    "Total Maintenance Cost": 0.22458,
+    "Total Price": 0.80458,
+    "Annual Budget": 0.9655
+  },
+  {
+    "Year": 1996,
+    "Category": "Forensic",
+    "Total Buy Price": 0.19754,
+    "Total Maintenance Cost": 0.00759,
+    "Total Price": 0.20513,
+    "Annual Budget": 0.24616
+  },
+  {
+    "Year": 1996,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00765,
+    "Total Maintenance Cost": 0.0004,
+    "Total Price": 0.00805,
+    "Annual Budget": 0.00966
+  },
+  {
+    "Year": 1996,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.26246,
+    "Total Maintenance Cost": 0.01523,
+    "Total Price": 0.27769,
+    "Annual Budget": 0.33323
+  },
+  {
+    "Year": 1996,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.013,
+    "Total Maintenance Cost": 0.00427,
+    "Total Price": 0.01727,
+    "Annual Budget": 0.02072
+  },
+  {
+    "Year": 1996,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00651,
+    "Total Maintenance Cost": 0.00223,
+    "Total Price": 0.00874,
+    "Annual Budget": 0.01049
+  },
+  {
+    "Year": 1996,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.13545,
+    "Total Maintenance Cost": 0.01918,
+    "Total Price": 0.15463,
+    "Annual Budget": 0.18556
+  },
+  {
+    "Year": 1996,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 11.85,
+    "Total Maintenance Cost": 1.27095,
+    "Total Price": 13.12095,
+    "Annual Budget": 15.74514
+  },
+  {
+    "Year": 1997,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.23726,
+    "Total Maintenance Cost": 0.32598,
+    "Total Price": 0.56324,
+    "Annual Budget": 0.67589
+  },
+  {
+    "Year": 1997,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.71,
+    "Total Maintenance Cost": 0.41763,
+    "Total Price": 1.12763,
+    "Annual Budget": 1.35316
+  },
+  {
+    "Year": 1997,
+    "Category": "Firearms",
+    "Total Buy Price": 0.61,
+    "Total Maintenance Cost": 0.23078,
+    "Total Price": 0.84078,
+    "Annual Budget": 1.00894
+  },
+  {
+    "Year": 1997,
+    "Category": "Forensic",
+    "Total Buy Price": 0.07778,
+    "Total Maintenance Cost": 0.00269,
+    "Total Price": 0.08047,
+    "Annual Budget": 0.09656
+  },
+  {
+    "Year": 1997,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00903,
+    "Total Maintenance Cost": 0.00039,
+    "Total Price": 0.00942,
+    "Annual Budget": 0.0113
+  },
+  {
+    "Year": 1997,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.49515,
+    "Total Maintenance Cost": 0.02878,
+    "Total Price": 0.52393,
+    "Annual Budget": 0.62872
+  },
+  {
+    "Year": 1997,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02986,
+    "Total Maintenance Cost": 0.00591,
+    "Total Price": 0.03577,
+    "Annual Budget": 0.04292
+  },
+  {
+    "Year": 1997,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00781,
+    "Total Maintenance Cost": 0.00198,
+    "Total Price": 0.00979,
+    "Annual Budget": 0.01175
+  },
+  {
+    "Year": 1997,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.14741,
+    "Total Maintenance Cost": 0.00559,
+    "Total Price": 0.153,
+    "Annual Budget": 0.1836
+  },
+  {
+    "Year": 1997,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 12.44,
+    "Total Maintenance Cost": 0.60897,
+    "Total Price": 13.04897,
+    "Annual Budget": 15.65876
+  },
+  {
+    "Year": 1998,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.30004,
+    "Total Maintenance Cost": 0.22515,
+    "Total Price": 0.52519,
+    "Annual Budget": 0.63023
+  },
+  {
+    "Year": 1998,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.74,
+    "Total Maintenance Cost": 0.16514,
+    "Total Price": 0.90514,
+    "Annual Budget": 1.08617
+  },
+  {
+    "Year": 1998,
+    "Category": "Firearms",
+    "Total Buy Price": 0.64,
+    "Total Maintenance Cost": 0.12057,
+    "Total Price": 0.76057,
+    "Annual Budget": 0.91268
+  },
+  {
+    "Year": 1998,
+    "Category": "Forensic",
+    "Total Buy Price": 0.16892,
+    "Total Maintenance Cost": 0.01581,
+    "Total Price": 0.18473,
+    "Annual Budget": 0.22168
+  },
+  {
+    "Year": 1998,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00481,
+    "Total Maintenance Cost": 0.00038,
+    "Total Price": 0.00519,
+    "Annual Budget": 0.00623
+  },
+  {
+    "Year": 1998,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.25404,
+    "Total Maintenance Cost": 0.00851,
+    "Total Price": 0.26255,
+    "Annual Budget": 0.31506
+  },
+  {
+    "Year": 1998,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02154,
+    "Total Maintenance Cost": 0.00402,
+    "Total Price": 0.02556,
+    "Annual Budget": 0.03067
+  },
+  {
+    "Year": 1998,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00661,
+    "Total Maintenance Cost": 0.00018,
+    "Total Price": 0.00679,
+    "Annual Budget": 0.00815
+  },
+  {
+    "Year": 1998,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.17789,
+    "Total Maintenance Cost": 0.01557,
+    "Total Price": 0.19346,
+    "Annual Budget": 0.23215
+  },
+  {
+    "Year": 1998,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 13.06,
+    "Total Maintenance Cost": 1.24632,
+    "Total Price": 14.30632,
+    "Annual Budget": 17.16758
+  },
+  {
+    "Year": 1999,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.06395,
+    "Total Maintenance Cost": 0.18163,
+    "Total Price": 0.24558,
+    "Annual Budget": 0.2947
+  },
+  {
+    "Year": 1999,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.77,
+    "Total Maintenance Cost": 0.31865,
+    "Total Price": 1.08865,
+    "Annual Budget": 1.30638
+  },
+  {
+    "Year": 1999,
+    "Category": "Firearms",
+    "Total Buy Price": 0.67,
+    "Total Maintenance Cost": 0.34601,
+    "Total Price": 1.01601,
+    "Annual Budget": 1.21921
+  },
+  {
+    "Year": 1999,
+    "Category": "Forensic",
+    "Total Buy Price": 0.16407,
+    "Total Maintenance Cost": 0.01118,
+    "Total Price": 0.17525,
+    "Annual Budget": 0.2103
+  },
+  {
+    "Year": 1999,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00792,
+    "Total Maintenance Cost": 0.00058,
+    "Total Price": 0.0085,
+    "Annual Budget": 0.0102
+  },
+  {
+    "Year": 1999,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.14099,
+    "Total Maintenance Cost": 0.02335,
+    "Total Price": 0.16434,
+    "Annual Budget": 0.19721
+  },
+  {
+    "Year": 1999,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02375,
+    "Total Maintenance Cost": 0.004,
+    "Total Price": 0.02775,
+    "Annual Budget": 0.0333
+  },
+  {
+    "Year": 1999,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00755,
+    "Total Maintenance Cost": 0.00487,
+    "Total Price": 0.01242,
+    "Annual Budget": 0.0149
+  },
+  {
+    "Year": 1999,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.11154,
+    "Total Maintenance Cost": 0.01037,
+    "Total Price": 0.12191,
+    "Annual Budget": 0.14629
+  },
+  {
+    "Year": 1999,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 13.7,
+    "Total Maintenance Cost": 1.5404,
+    "Total Price": 15.2404,
+    "Annual Budget": 18.28848
+  },
+  {
+    "Year": 2000,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.36821,
+    "Total Maintenance Cost": 0.32581,
+    "Total Price": 0.69402,
+    "Annual Budget": 0.83282
+  },
+  {
+    "Year": 2000,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.81,
+    "Total Maintenance Cost": 0.44718,
+    "Total Price": 1.25718,
+    "Annual Budget": 1.50862
+  },
+  {
+    "Year": 2000,
+    "Category": "Firearms",
+    "Total Buy Price": 0.7,
+    "Total Maintenance Cost": 0.12051,
+    "Total Price": 0.82051,
+    "Annual Budget": 0.98461
+  },
+  {
+    "Year": 2000,
+    "Category": "Forensic",
+    "Total Buy Price": 0.01474,
+    "Total Maintenance Cost": 0.0136,
+    "Total Price": 0.02834,
+    "Annual Budget": 0.03401
+  },
+  {
+    "Year": 2000,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00238,
+    "Total Maintenance Cost": 0.00086,
+    "Total Price": 0.00324,
+    "Annual Budget": 0.00389
+  },
+  {
+    "Year": 2000,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.05593,
+    "Total Maintenance Cost": 0.02035,
+    "Total Price": 0.07628,
+    "Annual Budget": 0.09154
+  },
+  {
+    "Year": 2000,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02758,
+    "Total Maintenance Cost": 0.00211,
+    "Total Price": 0.02969,
+    "Annual Budget": 0.03563
+  },
+  {
+    "Year": 2000,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.0071,
+    "Total Maintenance Cost": 0.00389,
+    "Total Price": 0.01099,
+    "Annual Budget": 0.01319
+  },
+  {
+    "Year": 2000,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.12392,
+    "Total Maintenance Cost": 0.01043,
+    "Total Price": 0.13435,
+    "Annual Budget": 0.16122
+  },
+  {
+    "Year": 2000,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 14.35,
+    "Total Maintenance Cost": 1.76743,
+    "Total Price": 16.11743,
+    "Annual Budget": 19.34092
+  },
+  {
+    "Year": 2001,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.06065,
+    "Total Maintenance Cost": 0.37221,
+    "Total Price": 0.43286,
+    "Annual Budget": 0.51943
+  },
+  {
+    "Year": 2001,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.85,
+    "Total Maintenance Cost": 0.46032,
+    "Total Price": 1.31032,
+    "Annual Budget": 1.57238
+  },
+  {
+    "Year": 2001,
+    "Category": "Firearms",
+    "Total Buy Price": 0.73,
+    "Total Maintenance Cost": 0.42851,
+    "Total Price": 1.15851,
+    "Annual Budget": 1.39021
+  },
+  {
+    "Year": 2001,
+    "Category": "Forensic",
+    "Total Buy Price": 0.03687,
+    "Total Maintenance Cost": 0.00766,
+    "Total Price": 0.04453,
+    "Annual Budget": 0.05344
+  },
+  {
+    "Year": 2001,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00278,
+    "Total Maintenance Cost": 0.00044,
+    "Total Price": 0.00322,
+    "Annual Budget": 0.00386
+  },
+  {
+    "Year": 2001,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.14037,
+    "Total Maintenance Cost": 0.02978,
+    "Total Price": 0.17015,
+    "Annual Budget": 0.20418
+  },
+  {
+    "Year": 2001,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.00084,
+    "Total Maintenance Cost": 0.00304,
+    "Total Price": 0.00388,
+    "Annual Budget": 0.00466
+  },
+  {
+    "Year": 2001,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00765,
+    "Total Maintenance Cost": 0.0035,
+    "Total Price": 0.01115,
+    "Annual Budget": 0.01338
+  },
+  {
+    "Year": 2001,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.08488,
+    "Total Maintenance Cost": 0.01207,
+    "Total Price": 0.09695,
+    "Annual Budget": 0.11634
+  },
+  {
+    "Year": 2001,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 15.01,
+    "Total Maintenance Cost": 0.50984,
+    "Total Price": 15.51984,
+    "Annual Budget": 18.62381
+  },
+  {
+    "Year": 2002,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.3462,
+    "Total Maintenance Cost": 0.37078,
+    "Total Price": 0.71698,
+    "Annual Budget": 0.86038
+  },
+  {
+    "Year": 2002,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.89,
+    "Total Maintenance Cost": 0.48607,
+    "Total Price": 1.37607,
+    "Annual Budget": 1.65128
+  },
+  {
+    "Year": 2002,
+    "Category": "Firearms",
+    "Total Buy Price": 0.76,
+    "Total Maintenance Cost": 0.32986,
+    "Total Price": 1.08986,
+    "Annual Budget": 1.30783
+  },
+  {
+    "Year": 2002,
+    "Category": "Forensic",
+    "Total Buy Price": 0.14391,
+    "Total Maintenance Cost": 0.0166,
+    "Total Price": 0.16051,
+    "Annual Budget": 0.19261
+  },
+  {
+    "Year": 2002,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.003,
+    "Total Maintenance Cost": 0.00011,
+    "Total Price": 0.00311,
+    "Annual Budget": 0.00373
+  },
+  {
+    "Year": 2002,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.08517,
+    "Total Maintenance Cost": 0.02662,
+    "Total Price": 0.11179,
+    "Annual Budget": 0.13415
+  },
+  {
+    "Year": 2002,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0358,
+    "Total Maintenance Cost": 0.00183,
+    "Total Price": 0.03763,
+    "Annual Budget": 0.04516
+  },
+  {
+    "Year": 2002,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.009,
+    "Total Maintenance Cost": 0.00382,
+    "Total Price": 0.01282,
+    "Annual Budget": 0.01538
+  },
+  {
+    "Year": 2002,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.05318,
+    "Total Maintenance Cost": 0.00422,
+    "Total Price": 0.0574,
+    "Annual Budget": 0.06888
+  },
+  {
+    "Year": 2002,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 15.66,
+    "Total Maintenance Cost": 1.66191,
+    "Total Price": 17.32191,
+    "Annual Budget": 20.78629
+  },
+  {
+    "Year": 2003,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.12182,
+    "Total Maintenance Cost": 0.05216,
+    "Total Price": 0.17398,
+    "Annual Budget": 0.20878
+  },
+  {
+    "Year": 2003,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.03,
+    "Total Maintenance Cost": 0.36638,
+    "Total Price": 0.39638,
+    "Annual Budget": 0.47566
+  },
+  {
+    "Year": 2003,
+    "Category": "Firearms",
+    "Total Buy Price": 0.09,
+    "Total Maintenance Cost": 0.41078,
+    "Total Price": 0.50078,
+    "Annual Budget": 0.60094
+  },
+  {
+    "Year": 2003,
+    "Category": "Forensic",
+    "Total Buy Price": 0.01039,
+    "Total Maintenance Cost": 0.00678,
+    "Total Price": 0.01717,
+    "Annual Budget": 0.0206
+  },
+  {
+    "Year": 2003,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.0083,
+    "Total Maintenance Cost": 0.00018,
+    "Total Price": 0.00848,
+    "Annual Budget": 0.01018
+  },
+  {
+    "Year": 2003,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.31291,
+    "Total Maintenance Cost": 0.00757,
+    "Total Price": 0.32048,
+    "Annual Budget": 0.38458
+  },
+  {
+    "Year": 2003,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.00401,
+    "Total Maintenance Cost": 0.00852,
+    "Total Price": 0.01253,
+    "Annual Budget": 0.01504
+  },
+  {
+    "Year": 2003,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00221,
+    "Total Maintenance Cost": 0.00242,
+    "Total Price": 0.00463,
+    "Annual Budget": 0.00556
+  },
+  {
+    "Year": 2003,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.05846,
+    "Total Maintenance Cost": 0.0168,
+    "Total Price": 0.07526,
+    "Annual Budget": 0.09031
+  },
+  {
+    "Year": 2003,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.18,
+    "Total Maintenance Cost": 0.11556,
+    "Total Price": 0.29556,
+    "Annual Budget": 0.35467
+  },
+  {
+    "Year": 2004,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.28021,
+    "Total Maintenance Cost": 0.39976,
+    "Total Price": 0.67997,
+    "Annual Budget": 0.81596
+  },
+  {
+    "Year": 2004,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.04,
+    "Total Maintenance Cost": 0.44282,
+    "Total Price": 0.48282,
+    "Annual Budget": 0.57938
+  },
+  {
+    "Year": 2004,
+    "Category": "Firearms",
+    "Total Buy Price": 0.1,
+    "Total Maintenance Cost": 0.06975,
+    "Total Price": 0.16975,
+    "Annual Budget": 0.2037
+  },
+  {
+    "Year": 2004,
+    "Category": "Forensic",
+    "Total Buy Price": 0.09339,
+    "Total Maintenance Cost": 0.00762,
+    "Total Price": 0.10101,
+    "Annual Budget": 0.12121
+  },
+  {
+    "Year": 2004,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00653,
+    "Total Maintenance Cost": 0.00087,
+    "Total Price": 0.0074,
+    "Annual Budget": 0.00888
+  },
+  {
+    "Year": 2004,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.17984,
+    "Total Maintenance Cost": 0.02229,
+    "Total Price": 0.20213,
+    "Annual Budget": 0.24256
+  },
+  {
+    "Year": 2004,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.03228,
+    "Total Maintenance Cost": 0.0062,
+    "Total Price": 0.03848,
+    "Annual Budget": 0.04618
+  },
+  {
+    "Year": 2004,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00354,
+    "Total Maintenance Cost": 0.00348,
+    "Total Price": 0.00702,
+    "Annual Budget": 0.00842
+  },
+  {
+    "Year": 2004,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.01722,
+    "Total Maintenance Cost": 0.01862,
+    "Total Price": 0.03584,
+    "Annual Budget": 0.04301
+  },
+  {
+    "Year": 2004,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.19,
+    "Total Maintenance Cost": 1.87789,
+    "Total Price": 2.06789,
+    "Annual Budget": 2.48147
+  },
+  {
+    "Year": 2005,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.24722,
+    "Total Maintenance Cost": 0.23163,
+    "Total Price": 0.47885,
+    "Annual Budget": 0.57462
+  },
+  {
+    "Year": 2005,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.05,
+    "Total Maintenance Cost": 0.47965,
+    "Total Price": 0.52965,
+    "Annual Budget": 0.63558
+  },
+  {
+    "Year": 2005,
+    "Category": "Firearms",
+    "Total Buy Price": 0.12,
+    "Total Maintenance Cost": 0.155,
+    "Total Price": 0.275,
+    "Annual Budget": 0.33
+  },
+  {
+    "Year": 2005,
+    "Category": "Forensic",
+    "Total Buy Price": 0.1524,
+    "Total Maintenance Cost": 0.01773,
+    "Total Price": 0.17013,
+    "Annual Budget": 0.20416
+  },
+  {
+    "Year": 2005,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00454,
+    "Total Maintenance Cost": 0.00053,
+    "Total Price": 0.00507,
+    "Annual Budget": 0.00608
+  },
+  {
+    "Year": 2005,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.13334,
+    "Total Maintenance Cost": 0.01553,
+    "Total Price": 0.14887,
+    "Annual Budget": 0.17864
+  },
+  {
+    "Year": 2005,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.00248,
+    "Total Maintenance Cost": 0.00333,
+    "Total Price": 0.00581,
+    "Annual Budget": 0.00697
+  },
+  {
+    "Year": 2005,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00957,
+    "Total Maintenance Cost": 0.00096,
+    "Total Price": 0.01053,
+    "Annual Budget": 0.01264
+  },
+  {
+    "Year": 2005,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.16594,
+    "Total Maintenance Cost": 0.01732,
+    "Total Price": 0.18326,
+    "Annual Budget": 0.21991
+  },
+  {
+    "Year": 2005,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.2,
+    "Total Maintenance Cost": 0.28647,
+    "Total Price": 0.48647,
+    "Annual Budget": 0.58376
+  },
+  {
+    "Year": 2006,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.29611,
+    "Total Maintenance Cost": 0.24617,
+    "Total Price": 0.54228,
+    "Annual Budget": 0.65074
+  },
+  {
+    "Year": 2006,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.06,
+    "Total Maintenance Cost": 0.04089,
+    "Total Price": 0.10089,
+    "Annual Budget": 0.12107
+  },
+  {
+    "Year": 2006,
+    "Category": "Firearms",
+    "Total Buy Price": 0.14,
+    "Total Maintenance Cost": 0.34406,
+    "Total Price": 0.48406,
+    "Annual Budget": 0.58087
+  },
+  {
+    "Year": 2006,
+    "Category": "Forensic",
+    "Total Buy Price": 0.08245,
+    "Total Maintenance Cost": 0.01625,
+    "Total Price": 0.0987,
+    "Annual Budget": 0.11844
+  },
+  {
+    "Year": 2006,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00185,
+    "Total Maintenance Cost": 0.00069,
+    "Total Price": 0.00254,
+    "Annual Budget": 0.00305
+  },
+  {
+    "Year": 2006,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.2984,
+    "Total Maintenance Cost": 0.01326,
+    "Total Price": 0.31166,
+    "Annual Budget": 0.37399
+  },
+  {
+    "Year": 2006,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.03233,
+    "Total Maintenance Cost": 0.00406,
+    "Total Price": 0.03639,
+    "Annual Budget": 0.04367
+  },
+  {
+    "Year": 2006,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00845,
+    "Total Maintenance Cost": 0.00363,
+    "Total Price": 0.01208,
+    "Annual Budget": 0.0145
+  },
+  {
+    "Year": 2006,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.07782,
+    "Total Maintenance Cost": 0.01549,
+    "Total Price": 0.09331,
+    "Annual Budget": 0.11197
+  },
+  {
+    "Year": 2006,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.21,
+    "Total Maintenance Cost": 1.20179,
+    "Total Price": 1.41179,
+    "Annual Budget": 1.69415
+  },
+  {
+    "Year": 2007,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.07452,
+    "Total Maintenance Cost": 0.31589,
+    "Total Price": 0.39041,
+    "Annual Budget": 0.46849
+  },
+  {
+    "Year": 2007,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.07,
+    "Total Maintenance Cost": 0.03731,
+    "Total Price": 0.10731,
+    "Annual Budget": 0.12877
+  },
+  {
+    "Year": 2007,
+    "Category": "Firearms",
+    "Total Buy Price": 0.15,
+    "Total Maintenance Cost": 0.06987,
+    "Total Price": 0.21987,
+    "Annual Budget": 0.26384
+  },
+  {
+    "Year": 2007,
+    "Category": "Forensic",
+    "Total Buy Price": 0.0323,
+    "Total Maintenance Cost": 0.00293,
+    "Total Price": 0.03523,
+    "Annual Budget": 0.04228
+  },
+  {
+    "Year": 2007,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00843,
+    "Total Maintenance Cost": 0.00022,
+    "Total Price": 0.00865,
+    "Annual Budget": 0.01038
+  },
+  {
+    "Year": 2007,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.33518,
+    "Total Maintenance Cost": 0.02438,
+    "Total Price": 0.35956,
+    "Annual Budget": 0.43147
+  },
+  {
+    "Year": 2007,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02184,
+    "Total Maintenance Cost": 0.00028,
+    "Total Price": 0.02212,
+    "Annual Budget": 0.02654
+  },
+  {
+    "Year": 2007,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00956,
+    "Total Maintenance Cost": 0.0001,
+    "Total Price": 0.00966,
+    "Annual Budget": 0.01159
+  },
+  {
+    "Year": 2007,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.14411,
+    "Total Maintenance Cost": 0.01329,
+    "Total Price": 0.1574,
+    "Annual Budget": 0.18888
+  },
+  {
+    "Year": 2007,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.22,
+    "Total Maintenance Cost": 1.76513,
+    "Total Price": 1.98513,
+    "Annual Budget": 2.38216
+  },
+  {
+    "Year": 2008,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.30029,
+    "Total Maintenance Cost": 0.14367,
+    "Total Price": 0.44396,
+    "Annual Budget": 0.53275
+  },
+  {
+    "Year": 2008,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.08,
+    "Total Maintenance Cost": 0.3097,
+    "Total Price": 0.3897,
+    "Annual Budget": 0.46764
+  },
+  {
+    "Year": 2008,
+    "Category": "Firearms",
+    "Total Buy Price": 0.16,
+    "Total Maintenance Cost": 0.13597,
+    "Total Price": 0.29597,
+    "Annual Budget": 0.35516
+  },
+  {
+    "Year": 2008,
+    "Category": "Forensic",
+    "Total Buy Price": 0.16781,
+    "Total Maintenance Cost": 0.00864,
+    "Total Price": 0.17645,
+    "Annual Budget": 0.21174
+  },
+  {
+    "Year": 2008,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00736,
+    "Total Maintenance Cost": 0.00042,
+    "Total Price": 0.00778,
+    "Annual Budget": 0.00934
+  },
+  {
+    "Year": 2008,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.05137,
+    "Total Maintenance Cost": 0.01241,
+    "Total Price": 0.06378,
+    "Annual Budget": 0.07654
+  },
+  {
+    "Year": 2008,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.01437,
+    "Total Maintenance Cost": 0.00828,
+    "Total Price": 0.02265,
+    "Annual Budget": 0.02718
+  },
+  {
+    "Year": 2008,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00896,
+    "Total Maintenance Cost": 0.00083,
+    "Total Price": 0.00979,
+    "Annual Budget": 0.01175
+  },
+  {
+    "Year": 2008,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.07672,
+    "Total Maintenance Cost": 0.01087,
+    "Total Price": 0.08759,
+    "Annual Budget": 0.10511
+  },
+  {
+    "Year": 2008,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.23,
+    "Total Maintenance Cost": 1.69071,
+    "Total Price": 1.92071,
+    "Annual Budget": 2.30485
+  },
+  {
+    "Year": 2009,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.38177,
+    "Total Maintenance Cost": 0.02946,
+    "Total Price": 0.41123,
+    "Annual Budget": 0.49348
+  },
+  {
+    "Year": 2009,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.09,
+    "Total Maintenance Cost": 0.42451,
+    "Total Price": 0.51451,
+    "Annual Budget": 0.61741
+  },
+  {
+    "Year": 2009,
+    "Category": "Firearms",
+    "Total Buy Price": 0.17,
+    "Total Maintenance Cost": 0.33567,
+    "Total Price": 0.50567,
+    "Annual Budget": 0.6068
+  },
+  {
+    "Year": 2009,
+    "Category": "Forensic",
+    "Total Buy Price": 0.0801,
+    "Total Maintenance Cost": 0.00215,
+    "Total Price": 0.08225,
+    "Annual Budget": 0.0987
+  },
+  {
+    "Year": 2009,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00573,
+    "Total Maintenance Cost": 0.00055,
+    "Total Price": 0.00628,
+    "Annual Budget": 0.00754
+  },
+  {
+    "Year": 2009,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.39877,
+    "Total Maintenance Cost": 0.01159,
+    "Total Price": 0.41036,
+    "Annual Budget": 0.49243
+  },
+  {
+    "Year": 2009,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.04191,
+    "Total Maintenance Cost": 0.00468,
+    "Total Price": 0.04659,
+    "Annual Budget": 0.05591
+  },
+  {
+    "Year": 2009,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00105,
+    "Total Maintenance Cost": 0.00064,
+    "Total Price": 0.00169,
+    "Annual Budget": 0.00203
+  },
+  {
+    "Year": 2009,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.13893,
+    "Total Maintenance Cost": 0.00784,
+    "Total Price": 0.14677,
+    "Annual Budget": 0.17612
+  },
+  {
+    "Year": 2009,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.24,
+    "Total Maintenance Cost": 0.84076,
+    "Total Price": 1.08076,
+    "Annual Budget": 1.29691
+  },
+  {
+    "Year": 2010,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.16091,
+    "Total Maintenance Cost": 0.35132,
+    "Total Price": 0.51223,
+    "Annual Budget": 0.61468
+  },
+  {
+    "Year": 2010,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.1,
+    "Total Maintenance Cost": 0.04057,
+    "Total Price": 0.14057,
+    "Annual Budget": 0.16868
+  },
+  {
+    "Year": 2010,
+    "Category": "Firearms",
+    "Total Buy Price": 0.18,
+    "Total Maintenance Cost": 0.18428,
+    "Total Price": 0.36428,
+    "Annual Budget": 0.43714
+  },
+  {
+    "Year": 2010,
+    "Category": "Forensic",
+    "Total Buy Price": 0.12052,
+    "Total Maintenance Cost": 0.01482,
+    "Total Price": 0.13534,
+    "Annual Budget": 0.16241
+  },
+  {
+    "Year": 2010,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.0033,
+    "Total Maintenance Cost": 0.00038,
+    "Total Price": 0.00368,
+    "Annual Budget": 0.00442
+  },
+  {
+    "Year": 2010,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.33308,
+    "Total Maintenance Cost": 0.02106,
+    "Total Price": 0.35414,
+    "Annual Budget": 0.42497
+  },
+  {
+    "Year": 2010,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02255,
+    "Total Maintenance Cost": 0.00693,
+    "Total Price": 0.02948,
+    "Annual Budget": 0.03538
+  },
+  {
+    "Year": 2010,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00493,
+    "Total Maintenance Cost": 0.00482,
+    "Total Price": 0.00975,
+    "Annual Budget": 0.0117
+  },
+  {
+    "Year": 2010,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.08824,
+    "Total Maintenance Cost": 0.01234,
+    "Total Price": 0.10058,
+    "Annual Budget": 0.1207
+  },
+  {
+    "Year": 2010,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.25,
+    "Total Maintenance Cost": 1.30878,
+    "Total Price": 1.55878,
+    "Annual Budget": 1.87054
+  },
+  {
+    "Year": 2011,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.22026,
+    "Total Maintenance Cost": 0.02059,
+    "Total Price": 0.24085,
+    "Annual Budget": 0.28902
+  },
+  {
+    "Year": 2011,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.11,
+    "Total Maintenance Cost": 0.24924,
+    "Total Price": 0.35924,
+    "Annual Budget": 0.43109
+  },
+  {
+    "Year": 2011,
+    "Category": "Firearms",
+    "Total Buy Price": 0.19,
+    "Total Maintenance Cost": 0.21303,
+    "Total Price": 0.40303,
+    "Annual Budget": 0.48364
+  },
+  {
+    "Year": 2011,
+    "Category": "Forensic",
+    "Total Buy Price": 0.02585,
+    "Total Maintenance Cost": 0.01615,
+    "Total Price": 0.042,
+    "Annual Budget": 0.0504
+  },
+  {
+    "Year": 2011,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00659,
+    "Total Maintenance Cost": 0.00011,
+    "Total Price": 0.0067,
+    "Annual Budget": 0.00804
+  },
+  {
+    "Year": 2011,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.36909,
+    "Total Maintenance Cost": 0.02187,
+    "Total Price": 0.39096,
+    "Annual Budget": 0.46915
+  },
+  {
+    "Year": 2011,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0271,
+    "Total Maintenance Cost": 0.00658,
+    "Total Price": 0.03368,
+    "Annual Budget": 0.04042
+  },
+  {
+    "Year": 2011,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00673,
+    "Total Maintenance Cost": 0.00437,
+    "Total Price": 0.0111,
+    "Annual Budget": 0.01332
+  },
+  {
+    "Year": 2011,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.19937,
+    "Total Maintenance Cost": 0.01321,
+    "Total Price": 0.21258,
+    "Annual Budget": 0.2551
+  },
+  {
+    "Year": 2011,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.26,
+    "Total Maintenance Cost": 1.62087,
+    "Total Price": 1.88087,
+    "Annual Budget": 2.25704
+  },
+  {
+    "Year": 2012,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.23543,
+    "Total Maintenance Cost": 0.3321,
+    "Total Price": 0.56753,
+    "Annual Budget": 0.68104
+  },
+  {
+    "Year": 2012,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.12,
+    "Total Maintenance Cost": 0.25751,
+    "Total Price": 0.37751,
+    "Annual Budget": 0.45301
+  },
+  {
+    "Year": 2012,
+    "Category": "Firearms",
+    "Total Buy Price": 0.2,
+    "Total Maintenance Cost": 0.10149,
+    "Total Price": 0.30149,
+    "Annual Budget": 0.36179
+  },
+  {
+    "Year": 2012,
+    "Category": "Forensic",
+    "Total Buy Price": 0.09923,
+    "Total Maintenance Cost": 0.00606,
+    "Total Price": 0.10529,
+    "Annual Budget": 0.12635
+  },
+  {
+    "Year": 2012,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00602,
+    "Total Maintenance Cost": 0.00097,
+    "Total Price": 0.00699,
+    "Annual Budget": 0.00839
+  },
+  {
+    "Year": 2012,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.22066,
+    "Total Maintenance Cost": 0.00123,
+    "Total Price": 0.22189,
+    "Annual Budget": 0.26627
+  },
+  {
+    "Year": 2012,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02492,
+    "Total Maintenance Cost": 0.00261,
+    "Total Price": 0.02753,
+    "Annual Budget": 0.03304
+  },
+  {
+    "Year": 2012,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00331,
+    "Total Maintenance Cost": 0.00037,
+    "Total Price": 0.00368,
+    "Annual Budget": 0.00442
+  },
+  {
+    "Year": 2012,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.05584,
+    "Total Maintenance Cost": 0.00176,
+    "Total Price": 0.0576,
+    "Annual Budget": 0.06912
+  },
+  {
+    "Year": 2012,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.27,
+    "Total Maintenance Cost": 1.28378,
+    "Total Price": 1.55378,
+    "Annual Budget": 1.86454
+  },
+  {
+    "Year": 2013,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.19362,
+    "Total Maintenance Cost": 0.29425,
+    "Total Price": 0.48787,
+    "Annual Budget": 0.58544
+  },
+  {
+    "Year": 2013,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.13,
+    "Total Maintenance Cost": 0.4408,
+    "Total Price": 0.5708,
+    "Annual Budget": 0.68496
+  },
+  {
+    "Year": 2013,
+    "Category": "Firearms",
+    "Total Buy Price": 0.21,
+    "Total Maintenance Cost": 0.31606,
+    "Total Price": 0.52606,
+    "Annual Budget": 0.63127
+  },
+  {
+    "Year": 2013,
+    "Category": "Forensic",
+    "Total Buy Price": 0.16513,
+    "Total Maintenance Cost": 0.01392,
+    "Total Price": 0.17905,
+    "Annual Budget": 0.21486
+  },
+  {
+    "Year": 2013,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00158,
+    "Total Maintenance Cost": 0.00077,
+    "Total Price": 0.00235,
+    "Annual Budget": 0.00282
+  },
+  {
+    "Year": 2013,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.11806,
+    "Total Maintenance Cost": 0.01203,
+    "Total Price": 0.13009,
+    "Annual Budget": 0.15611
+  },
+  {
+    "Year": 2013,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.01819,
+    "Total Maintenance Cost": 0.00508,
+    "Total Price": 0.02327,
+    "Annual Budget": 0.02792
+  },
+  {
+    "Year": 2013,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00447,
+    "Total Maintenance Cost": 0.00439,
+    "Total Price": 0.00886,
+    "Annual Budget": 0.01063
+  },
+  {
+    "Year": 2013,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.07602,
+    "Total Maintenance Cost": 0.01089,
+    "Total Price": 0.08691,
+    "Annual Budget": 0.10429
+  },
+  {
+    "Year": 2013,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.28,
+    "Total Maintenance Cost": 1.29286,
+    "Total Price": 1.57286,
+    "Annual Budget": 1.88743
+  },
+  {
+    "Year": 2014,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.3485,
+    "Total Maintenance Cost": 0.03573,
+    "Total Price": 0.38423,
+    "Annual Budget": 0.46108
+  },
+  {
+    "Year": 2014,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.14,
+    "Total Maintenance Cost": 0.15655,
+    "Total Price": 0.29655,
+    "Annual Budget": 0.35586
+  },
+  {
+    "Year": 2014,
+    "Category": "Firearms",
+    "Total Buy Price": 0.22,
+    "Total Maintenance Cost": 0.24847,
+    "Total Price": 0.46847,
+    "Annual Budget": 0.56216
+  },
+  {
+    "Year": 2014,
+    "Category": "Forensic",
+    "Total Buy Price": 0.17107,
+    "Total Maintenance Cost": 0.01195,
+    "Total Price": 0.18302,
+    "Annual Budget": 0.21962
+  },
+  {
+    "Year": 2014,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00928,
+    "Total Maintenance Cost": 0.00094,
+    "Total Price": 0.01022,
+    "Annual Budget": 0.01226
+  },
+  {
+    "Year": 2014,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.24045,
+    "Total Maintenance Cost": 0.02257,
+    "Total Price": 0.26302,
+    "Annual Budget": 0.31562
+  },
+  {
+    "Year": 2014,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0411,
+    "Total Maintenance Cost": 0.00979,
+    "Total Price": 0.05089,
+    "Annual Budget": 0.06107
+  },
+  {
+    "Year": 2014,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00849,
+    "Total Maintenance Cost": 0.0037,
+    "Total Price": 0.01219,
+    "Annual Budget": 0.01463
+  },
+  {
+    "Year": 2014,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.18757,
+    "Total Maintenance Cost": 0.01507,
+    "Total Price": 0.20264,
+    "Annual Budget": 0.24317
+  },
+  {
+    "Year": 2014,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.29,
+    "Total Maintenance Cost": 0.88184,
+    "Total Price": 1.17184,
+    "Annual Budget": 1.40621
+  },
+  {
+    "Year": 2015,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.24934,
+    "Total Maintenance Cost": 0.02776,
+    "Total Price": 0.2771,
+    "Annual Budget": 0.33252
+  },
+  {
+    "Year": 2015,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.15,
+    "Total Maintenance Cost": 0.28941,
+    "Total Price": 0.43941,
+    "Annual Budget": 0.52729
+  },
+  {
+    "Year": 2015,
+    "Category": "Firearms",
+    "Total Buy Price": 0.23,
+    "Total Maintenance Cost": 0.11771,
+    "Total Price": 0.34771,
+    "Annual Budget": 0.41725
+  },
+  {
+    "Year": 2015,
+    "Category": "Forensic",
+    "Total Buy Price": 0.10578,
+    "Total Maintenance Cost": 0.00917,
+    "Total Price": 0.11495,
+    "Annual Budget": 0.13794
+  },
+  {
+    "Year": 2015,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00967,
+    "Total Maintenance Cost": 0.00029,
+    "Total Price": 0.00996,
+    "Annual Budget": 0.01195
+  },
+  {
+    "Year": 2015,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.41036,
+    "Total Maintenance Cost": 0.00348,
+    "Total Price": 0.41384,
+    "Annual Budget": 0.49661
+  },
+  {
+    "Year": 2015,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.00163,
+    "Total Maintenance Cost": 0.00531,
+    "Total Price": 0.00694,
+    "Annual Budget": 0.00833
+  },
+  {
+    "Year": 2015,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00254,
+    "Total Maintenance Cost": 0.00106,
+    "Total Price": 0.0036,
+    "Annual Budget": 0.00432
+  },
+  {
+    "Year": 2015,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.10907,
+    "Total Maintenance Cost": 0.01857,
+    "Total Price": 0.12764,
+    "Annual Budget": 0.15317
+  },
+  {
+    "Year": 2015,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.3,
+    "Total Maintenance Cost": 0.31228,
+    "Total Price": 0.61228,
+    "Annual Budget": 0.73474
+  },
+  {
+    "Year": 2016,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.3395,
+    "Total Maintenance Cost": 0.36431,
+    "Total Price": 0.70381,
+    "Annual Budget": 0.84457
+  },
+  {
+    "Year": 2016,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.16,
+    "Total Maintenance Cost": 0.32119,
+    "Total Price": 0.48119,
+    "Annual Budget": 0.57743
+  },
+  {
+    "Year": 2016,
+    "Category": "Firearms",
+    "Total Buy Price": 0.24,
+    "Total Maintenance Cost": 0.12259,
+    "Total Price": 0.36259,
+    "Annual Budget": 0.43511
+  },
+  {
+    "Year": 2016,
+    "Category": "Forensic",
+    "Total Buy Price": 0.14451,
+    "Total Maintenance Cost": 0.01596,
+    "Total Price": 0.16047,
+    "Annual Budget": 0.19256
+  },
+  {
+    "Year": 2016,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00714,
+    "Total Maintenance Cost": 0.00038,
+    "Total Price": 0.00752,
+    "Annual Budget": 0.00902
+  },
+  {
+    "Year": 2016,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.45401,
+    "Total Maintenance Cost": 0.00257,
+    "Total Price": 0.45658,
+    "Annual Budget": 0.5479
+  },
+  {
+    "Year": 2016,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0021,
+    "Total Maintenance Cost": 0.00676,
+    "Total Price": 0.00886,
+    "Annual Budget": 0.01063
+  },
+  {
+    "Year": 2016,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.0078,
+    "Total Maintenance Cost": 0.00372,
+    "Total Price": 0.01152,
+    "Annual Budget": 0.01382
+  },
+  {
+    "Year": 2016,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.0564,
+    "Total Maintenance Cost": 0.01599,
+    "Total Price": 0.07239,
+    "Annual Budget": 0.08687
+  },
+  {
+    "Year": 2016,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.31,
+    "Total Maintenance Cost": 1.76129,
+    "Total Price": 2.07129,
+    "Annual Budget": 2.48555
+  },
+  {
+    "Year": 2017,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.204,
+    "Total Maintenance Cost": 0.28479,
+    "Total Price": 0.48879,
+    "Annual Budget": 0.58655
+  },
+  {
+    "Year": 2017,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.17,
+    "Total Maintenance Cost": 0.12777,
+    "Total Price": 0.29777,
+    "Annual Budget": 0.35732
+  },
+  {
+    "Year": 2017,
+    "Category": "Firearms",
+    "Total Buy Price": 0.25,
+    "Total Maintenance Cost": 0.39209,
+    "Total Price": 0.64209,
+    "Annual Budget": 0.77051
+  },
+  {
+    "Year": 2017,
+    "Category": "Forensic",
+    "Total Buy Price": 0.07336,
+    "Total Maintenance Cost": 0.00601,
+    "Total Price": 0.07937,
+    "Annual Budget": 0.09524
+  },
+  {
+    "Year": 2017,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00943,
+    "Total Maintenance Cost": 0.00038,
+    "Total Price": 0.00981,
+    "Annual Budget": 0.01177
+  },
+  {
+    "Year": 2017,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.41238,
+    "Total Maintenance Cost": 0.01577,
+    "Total Price": 0.42815,
+    "Annual Budget": 0.51378
+  },
+  {
+    "Year": 2017,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.04464,
+    "Total Maintenance Cost": 0.00602,
+    "Total Price": 0.05066,
+    "Annual Budget": 0.06079
+  },
+  {
+    "Year": 2017,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00528,
+    "Total Maintenance Cost": 0.00345,
+    "Total Price": 0.00873,
+    "Annual Budget": 0.01048
+  },
+  {
+    "Year": 2017,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.17089,
+    "Total Maintenance Cost": 0.00281,
+    "Total Price": 0.1737,
+    "Annual Budget": 0.20844
+  },
+  {
+    "Year": 2017,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.32,
+    "Total Maintenance Cost": 1.98312,
+    "Total Price": 2.30312,
+    "Annual Budget": 2.76374
+  },
+  {
+    "Year": 2018,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.20752,
+    "Total Maintenance Cost": 0.24638,
+    "Total Price": 0.4539,
+    "Annual Budget": 0.54468
+  },
+  {
+    "Year": 2018,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.18,
+    "Total Maintenance Cost": 0.35973,
+    "Total Price": 0.53973,
+    "Annual Budget": 0.64768
+  },
+  {
+    "Year": 2018,
+    "Category": "Firearms",
+    "Total Buy Price": 0.26,
+    "Total Maintenance Cost": 0.32332,
+    "Total Price": 0.58332,
+    "Annual Budget": 0.69998
+  },
+  {
+    "Year": 2018,
+    "Category": "Forensic",
+    "Total Buy Price": 0.11213,
+    "Total Maintenance Cost": 0.00553,
+    "Total Price": 0.11766,
+    "Annual Budget": 0.14119
+  },
+  {
+    "Year": 2018,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.0074,
+    "Total Maintenance Cost": 0.00063,
+    "Total Price": 0.00803,
+    "Annual Budget": 0.00964
+  },
+  {
+    "Year": 2018,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.15108,
+    "Total Maintenance Cost": 0.02044,
+    "Total Price": 0.17152,
+    "Annual Budget": 0.20582
+  },
+  {
+    "Year": 2018,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.04576,
+    "Total Maintenance Cost": 0.00332,
+    "Total Price": 0.04908,
+    "Annual Budget": 0.0589
+  },
+  {
+    "Year": 2018,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00721,
+    "Total Maintenance Cost": 0.00247,
+    "Total Price": 0.00968,
+    "Annual Budget": 0.01162
+  },
+  {
+    "Year": 2018,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.02988,
+    "Total Maintenance Cost": 0.01126,
+    "Total Price": 0.04114,
+    "Annual Budget": 0.04937
+  },
+  {
+    "Year": 2018,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.33,
+    "Total Maintenance Cost": 1.33268,
+    "Total Price": 1.66268,
+    "Annual Budget": 1.99522
+  },
+  {
+    "Year": 2019,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.20647,
+    "Total Maintenance Cost": 0.03165,
+    "Total Price": 0.23812,
+    "Annual Budget": 0.28574
+  },
+  {
+    "Year": 2019,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.19,
+    "Total Maintenance Cost": 0.09621,
+    "Total Price": 0.28621,
+    "Annual Budget": 0.34345
+  },
+  {
+    "Year": 2019,
+    "Category": "Firearms",
+    "Total Buy Price": 0.27,
+    "Total Maintenance Cost": 0.24873,
+    "Total Price": 0.51873,
+    "Annual Budget": 0.62248
+  },
+  {
+    "Year": 2019,
+    "Category": "Forensic",
+    "Total Buy Price": 0.07175,
+    "Total Maintenance Cost": 0.00232,
+    "Total Price": 0.07407,
+    "Annual Budget": 0.08888
+  },
+  {
+    "Year": 2019,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00387,
+    "Total Maintenance Cost": 0.00068,
+    "Total Price": 0.00455,
+    "Annual Budget": 0.00546
+  },
+  {
+    "Year": 2019,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.3349,
+    "Total Maintenance Cost": 0.00141,
+    "Total Price": 0.33631,
+    "Annual Budget": 0.40357
+  },
+  {
+    "Year": 2019,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.011,
+    "Total Maintenance Cost": 0.0002,
+    "Total Price": 0.0112,
+    "Annual Budget": 0.01344
+  },
+  {
+    "Year": 2019,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00743,
+    "Total Maintenance Cost": 0.003,
+    "Total Price": 0.01043,
+    "Annual Budget": 0.01252
+  },
+  {
+    "Year": 2019,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.05676,
+    "Total Maintenance Cost": 0.01672,
+    "Total Price": 0.07348,
+    "Annual Budget": 0.08818
+  },
+  {
+    "Year": 2019,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.34,
+    "Total Maintenance Cost": 0.74118,
+    "Total Price": 1.08118,
+    "Annual Budget": 1.29742
+  },
+  {
+    "Year": 2020,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.06689,
+    "Total Maintenance Cost": 0.32448,
+    "Total Price": 0.39137,
+    "Annual Budget": 0.46964
+  },
+  {
+    "Year": 2020,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.2,
+    "Total Maintenance Cost": 0.20944,
+    "Total Price": 0.40944,
+    "Annual Budget": 0.49133
+  },
+  {
+    "Year": 2020,
+    "Category": "Firearms",
+    "Total Buy Price": 0.28,
+    "Total Maintenance Cost": 0.15953,
+    "Total Price": 0.43953,
+    "Annual Budget": 0.52744
+  },
+  {
+    "Year": 2020,
+    "Category": "Forensic",
+    "Total Buy Price": 0.04796,
+    "Total Maintenance Cost": 0.0194,
+    "Total Price": 0.06736,
+    "Annual Budget": 0.08083
+  },
+  {
+    "Year": 2020,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00227,
+    "Total Maintenance Cost": 0.0003,
+    "Total Price": 0.00257,
+    "Annual Budget": 0.00308
+  },
+  {
+    "Year": 2020,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.4577,
+    "Total Maintenance Cost": 0.00277,
+    "Total Price": 0.46047,
+    "Annual Budget": 0.55256
+  },
+  {
+    "Year": 2020,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0014,
+    "Total Maintenance Cost": 0.00045,
+    "Total Price": 0.00185,
+    "Annual Budget": 0.00222
+  },
+  {
+    "Year": 2020,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00622,
+    "Total Maintenance Cost": 0.00088,
+    "Total Price": 0.0071,
+    "Annual Budget": 0.00852
+  },
+  {
+    "Year": 2020,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.02396,
+    "Total Maintenance Cost": 0.00517,
+    "Total Price": 0.02913,
+    "Annual Budget": 0.03496
+  },
+  {
+    "Year": 2020,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.35,
+    "Total Maintenance Cost": 1.95206,
+    "Total Price": 2.30206,
+    "Annual Budget": 2.76247
+  },
+  {
+    "Year": 2021,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.28648,
+    "Total Maintenance Cost": 0.04537,
+    "Total Price": 0.33185,
+    "Annual Budget": 0.39822
+  },
+  {
+    "Year": 2021,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.21,
+    "Total Maintenance Cost": 0.35256,
+    "Total Price": 0.56256,
+    "Annual Budget": 0.67507
+  },
+  {
+    "Year": 2021,
+    "Category": "Firearms",
+    "Total Buy Price": 0.29,
+    "Total Maintenance Cost": 0.09358,
+    "Total Price": 0.38358,
+    "Annual Budget": 0.4603
+  },
+  {
+    "Year": 2021,
+    "Category": "Forensic",
+    "Total Buy Price": 0.03254,
+    "Total Maintenance Cost": 0.0165,
+    "Total Price": 0.04904,
+    "Annual Budget": 0.05885
+  },
+  {
+    "Year": 2021,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00564,
+    "Total Maintenance Cost": 0.00082,
+    "Total Price": 0.00646,
+    "Annual Budget": 0.00775
+  },
+  {
+    "Year": 2021,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.43253,
+    "Total Maintenance Cost": 0.02566,
+    "Total Price": 0.45819,
+    "Annual Budget": 0.54983
+  },
+  {
+    "Year": 2021,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02973,
+    "Total Maintenance Cost": 0.00423,
+    "Total Price": 0.03396,
+    "Annual Budget": 0.04075
+  },
+  {
+    "Year": 2021,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00931,
+    "Total Maintenance Cost": 0.00146,
+    "Total Price": 0.01077,
+    "Annual Budget": 0.01292
+  },
+  {
+    "Year": 2021,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.14629,
+    "Total Maintenance Cost": 0.0159,
+    "Total Price": 0.16219,
+    "Annual Budget": 0.19463
+  },
+  {
+    "Year": 2021,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.36,
+    "Total Maintenance Cost": 1.03798,
+    "Total Price": 1.39798,
+    "Annual Budget": 1.67758
+  },
+  {
+    "Year": 2022,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.17562,
+    "Total Maintenance Cost": 0.38192,
+    "Total Price": 0.55754,
+    "Annual Budget": 0.66905
+  },
+  {
+    "Year": 2022,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.22,
+    "Total Maintenance Cost": 0.20776,
+    "Total Price": 0.42776,
+    "Annual Budget": 0.51331
+  },
+  {
+    "Year": 2022,
+    "Category": "Firearms",
+    "Total Buy Price": 0.3,
+    "Total Maintenance Cost": 0.06331,
+    "Total Price": 0.36331,
+    "Annual Budget": 0.43597
+  },
+  {
+    "Year": 2022,
+    "Category": "Forensic",
+    "Total Buy Price": 0.09097,
+    "Total Maintenance Cost": 0.0013,
+    "Total Price": 0.09227,
+    "Annual Budget": 0.11072
+  },
+  {
+    "Year": 2022,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00537,
+    "Total Maintenance Cost": 0.00065,
+    "Total Price": 0.00602,
+    "Annual Budget": 0.00722
+  },
+  {
+    "Year": 2022,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.30548,
+    "Total Maintenance Cost": 0.01159,
+    "Total Price": 0.31707,
+    "Annual Budget": 0.38048
+  },
+  {
+    "Year": 2022,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.02163,
+    "Total Maintenance Cost": 0.00266,
+    "Total Price": 0.02429,
+    "Annual Budget": 0.02915
+  },
+  {
+    "Year": 2022,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00842,
+    "Total Maintenance Cost": 0.00189,
+    "Total Price": 0.01031,
+    "Annual Budget": 0.01237
+  },
+  {
+    "Year": 2022,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.16621,
+    "Total Maintenance Cost": 0.01562,
+    "Total Price": 0.18183,
+    "Annual Budget": 0.2182
+  },
+  {
+    "Year": 2022,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.37,
+    "Total Maintenance Cost": 0.94842,
+    "Total Price": 1.31842,
+    "Annual Budget": 1.5821
+  },
+  {
+    "Year": 2023,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.34186,
+    "Total Maintenance Cost": 0.13513,
+    "Total Price": 0.47699,
+    "Annual Budget": 0.57239
+  },
+  {
+    "Year": 2023,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.23,
+    "Total Maintenance Cost": 0.22384,
+    "Total Price": 0.45384,
+    "Annual Budget": 0.54461
+  },
+  {
+    "Year": 2023,
+    "Category": "Firearms",
+    "Total Buy Price": 0.31,
+    "Total Maintenance Cost": 0.12607,
+    "Total Price": 0.43607,
+    "Annual Budget": 0.52328
+  },
+  {
+    "Year": 2023,
+    "Category": "Forensic",
+    "Total Buy Price": 0.1999,
+    "Total Maintenance Cost": 0.0128,
+    "Total Price": 0.2127,
+    "Annual Budget": 0.25524
+  },
+  {
+    "Year": 2023,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00101,
+    "Total Maintenance Cost": 0.00078,
+    "Total Price": 0.00179,
+    "Annual Budget": 0.00215
+  },
+  {
+    "Year": 2023,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.353,
+    "Total Maintenance Cost": 0.00606,
+    "Total Price": 0.35906,
+    "Annual Budget": 0.43087
+  },
+  {
+    "Year": 2023,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.0246,
+    "Total Maintenance Cost": 0.00507,
+    "Total Price": 0.02967,
+    "Annual Budget": 0.0356
+  },
+  {
+    "Year": 2023,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00484,
+    "Total Maintenance Cost": 0.00265,
+    "Total Price": 0.00749,
+    "Annual Budget": 0.00899
+  },
+  {
+    "Year": 2023,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.01289,
+    "Total Maintenance Cost": 0.01187,
+    "Total Price": 0.02476,
+    "Annual Budget": 0.02971
+  },
+  {
+    "Year": 2023,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.38,
+    "Total Maintenance Cost": 1.27955,
+    "Total Price": 1.65955,
+    "Annual Budget": 1.99146
+  },
+  {
+    "Year": 2024,
+    "Category": "Communication Devices",
+    "Total Buy Price": 0.2023,
+    "Total Maintenance Cost": 0.26279,
+    "Total Price": 0.46509,
+    "Annual Budget": 0.55811
+  },
+  {
+    "Year": 2024,
+    "Category": "Computer and IT Equipment",
+    "Total Buy Price": 0.24,
+    "Total Maintenance Cost": 0.38927,
+    "Total Price": 0.62927,
+    "Annual Budget": 0.75512
+  },
+  {
+    "Year": 2024,
+    "Category": "Firearms",
+    "Total Buy Price": 0.32,
+    "Total Maintenance Cost": 0.16465,
+    "Total Price": 0.48465,
+    "Annual Budget": 0.58158
+  },
+  {
+    "Year": 2024,
+    "Category": "Forensic",
+    "Total Buy Price": 0.05214,
+    "Total Maintenance Cost": 0.0072,
+    "Total Price": 0.05934,
+    "Annual Budget": 0.07121
+  },
+  {
+    "Year": 2024,
+    "Category": "Medical First Aid",
+    "Total Buy Price": 0.00974,
+    "Total Maintenance Cost": 0.00076,
+    "Total Price": 0.0105,
+    "Annual Budget": 0.0126
+  },
+  {
+    "Year": 2024,
+    "Category": "Networking Equipment",
+    "Total Buy Price": 0.08229,
+    "Total Maintenance Cost": 0.01809,
+    "Total Price": 0.10038,
+    "Annual Budget": 0.12046
+  },
+  {
+    "Year": 2024,
+    "Category": "Office Supplies",
+    "Total Buy Price": 0.03214,
+    "Total Maintenance Cost": 0.00175,
+    "Total Price": 0.03389,
+    "Annual Budget": 0.04067
+  },
+  {
+    "Year": 2024,
+    "Category": "Protective Gear",
+    "Total Buy Price": 0.00323,
+    "Total Maintenance Cost": 0.00432,
+    "Total Price": 0.00755,
+    "Annual Budget": 0.00906
+  },
+  {
+    "Year": 2024,
+    "Category": "Surveillance and Tracking",
+    "Total Buy Price": 0.14674,
+    "Total Maintenance Cost": 0.01547,
+    "Total Price": 0.16221,
+    "Annual Budget": 0.19465
+  },
+  {
+    "Year": 2024,
+    "Category": "Vehicle and Accessories",
+    "Total Buy Price": 0.39,
+    "Total Maintenance Cost": 1.5382,
+    "Total Price": 1.9282,
+    "Annual Budget": 2.31384
+  }
+]

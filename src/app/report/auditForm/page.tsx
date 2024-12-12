@@ -114,7 +114,7 @@ const AuditForm = () => {
     };
 
     alert(`Submitting all forms: ${JSON.stringify(formData)}`);
-    const response = await fetch("/api/report/auditForm", {
+    const response = await fetch("/api/reports/auditForm", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 
 const policeStations = [
   { name: "TT Nagar Police Station", lat: 23.23725, long: 77.39984 },
@@ -43,33 +44,16 @@ const AuditReport: React.FC = () => {
   };
 
   const handleDownloadReport = (station: (typeof policeStations)[0]) => {
-    axios
-      .post(`/api/download-report`, {
-        location: `${station.lat},${station.long}`,
-      })
-      .then((response) => {
-        const blob = new Blob([response.data], { type: "application/pdf" });
-        const url = window.URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = `Report_${station.name.replace(/ /g, "_")}.pdf`;
-        link.click();
-      });
+     const router = useRouter();
+     router.push(`/adminPages/monthlyReport/${station.name}`);
+      
   };
 
   const handleDownloadAudit = (station: (typeof policeStations)[0]) => {
-    axios
-      .post(`/api/download-audit`, {
-        location: `${station.lat},${station.long}`,
-      })
-      .then((response) => {
-        const blob = new Blob([response.data], { type: "application/pdf" });
-        const url = window.URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = `Audit_${station.name.replace(/ /g, "_")}.pdf`;
-        link.click();
-      });
+    const res = fetch('/api/download-audit', {
+      method: 'POST',
+      body: JSON.stringify({ location: station.name })
+    });
   };
 
   return (

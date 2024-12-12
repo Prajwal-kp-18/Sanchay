@@ -9,7 +9,7 @@ const UserTable: React.FC = () => {
     const fetchUsers = async () => {
       setLoading(true);
       try {
-        const response = await fetch("/api/users", { method: "GET" }); // Replace with your API endpoint
+        const response = await fetch("/api/starOfficer", { method: "GET" }); // Replace with your API endpoint
         if (!response.ok) {
           throw new Error("Failed to fetch users");
         }

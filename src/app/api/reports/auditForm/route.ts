@@ -36,12 +36,12 @@ export async function POST(req: Request) {
       );
     }
 
-    const Policiesid: any = [];
-    const Policies: any = [];
+    const Policiesid: any= [];
+    const Policies: Policy[] = [];
         const spolicy: Policy = await prisma.policy.create({
             data: {
                 name: "STORAGE_POLICY",
-                findings: policies.storagePolicy.finding,
+                findings: policies.storagePolicy.findings,
                 impact: policies.storagePolicy.impact,
                 recommendation: policies.storagePolicy.recommendation,
                 complianceStatus: policies.storagePolicy.complianceStatus,
@@ -51,7 +51,7 @@ export async function POST(req: Request) {
         const prpolicy: Policy = await prisma.policy.create({
             data: {
                 name: "PROCUREMENT_POLICY",
-                findings: policies.procurementPolicy.finding,
+                findings: policies.procurementPolicy.findings,
                 impact: policies.procurementPolicy.impact,
                 recommendation: policies.procurementPolicy.recommendation,
                 complianceStatus: policies.procurementPolicy.complianceStatus,
@@ -61,7 +61,7 @@ export async function POST(req: Request) {
         const upolicy: Policy = await prisma.policy.create({
             data: {
                 name: "USAGE_AND_DEPLOYMENT_POLICY",
-                findings: policies.usageDeploymentPolicy.finding,
+                findings: policies.usageDeploymentPolicy.findings,
                 impact: policies.usageDeploymentPolicy.impact,
                 recommendation: policies.usageDeploymentPolicy.recommendation,
                 complianceStatus: policies.usageDeploymentPolicy.complianceStatus,
@@ -71,7 +71,7 @@ export async function POST(req: Request) {
         const dpolicy: Policy = await prisma.policy.create({
             data: {
                 name: "DISPOSAL_POLICY",
-                findings: policies.disposalPolicy.finding,
+                findings: policies.disposalPolicy.findings,
                 impact: policies.disposalPolicy.impact,
                 recommendation: policies.disposalPolicy.recommendation,
                 complianceStatus: policies.disposalPolicy.complianceStatus,
@@ -81,7 +81,7 @@ export async function POST(req: Request) {
         const ppolicy: Policy = await prisma.policy.create({
             data: {
                 name: "PURCHASE_POLICY",
-                findings: policies.purchasePolicy.finding,
+                findings: policies.purchasePolicy.findings,
                 impact: policies.purchasePolicy.impact,
                 recommendation: policies.purchasePolicy.recommendation,
                 complianceStatus: policies.purchasePolicy.complianceStatus,
@@ -94,28 +94,27 @@ export async function POST(req: Request) {
         Policiesid.push(spolicy.id, prpolicy.id, upolicy.id, dpolicy.id, ppolicy.id);
 
 
-        const StockAccuracy = await prisma.stock.create(
+        const StockAccuracy: any = await prisma.stock.create(
             {
                 data: {
-                    specializedEquipment: policies.stockValuationAccuracy.specializedEquipment,
-                    operationalAssets: policies.stockValuationAccuracy.operationalAssets,
-                    governmentFundedItems: policies.stockValuationAccuracy.governmentFundedItems,
+                    specializedEquipment: policies.stockValuationAccuracy?.specializedEquipment|| 0,
+                    operationalAssets: policies.stockValuationAccuracy?.operationalAssets || 7,
+                    governmentFundedItems: policies.stockValuationAccuracy?.governmentFundedItems || 5,
                 }}
         )
 
+    const{StocksAccuracy, id} = StockAccuracy;
 
 
-    
     const request = await prisma.auditReport.create({
       data: {
         auditOfficerName: auditDetails.auditOfficerName,
         auditOfficerId: auditDetails.auditOfficerId,
         location: auditDetails.location,
-        startDate: auditDetails.startDate,
-        endDate: auditDetails.endDate,
-        Policies,
+        startDate: new Date(auditDetails.startDate),
+        endDate: new Date(auditDetails.endDate),
         Policiesid,
-        StockAccuracy: stockValuationAccuracy,
+        StockAccuracy: StocksAccuracy,
         StockId: StockAccuracy.id,
         
       },
