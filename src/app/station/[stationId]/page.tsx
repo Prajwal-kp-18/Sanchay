@@ -179,7 +179,7 @@ const ViewInventoryIndividual = () => {
     if (formElement) {
       // Use html2canvas to create a canvas from the form element
       html2canvas(formElement)
-        .then(async (canvas) => {
+        .then((canvas) => {
           const link = document.createElement("a");
           link.download = "transfer-details.png";
           link.href = canvas.toDataURL("image/png");
@@ -187,23 +187,23 @@ const ViewInventoryIndividual = () => {
 
           const imageData = canvas.toDataURL("image/png").split(",")[1];
 
-          const response = await fetch("/api/notification");
-          const prisma = new PrismaClient();
-          const session = await auth();
-          const user = await prisma.user.findFirst({
-            where: { id: session?.user.id },
-          });
-          const incharge = await prisma.user.findFirst({
-            where: { location: user?.location },
-          });
-          const bhoomi: any = await prisma.notification.create({
-            data: {
-              userId: incharge?.govId || "",
-              inchargeId: user?.govId || "",
-              message: `The following items in link are transferred by ${user?.name} from govId ${incharge?.govId}  ${imageData}.`,
-            },
-          });
-          await sendingEmail(incharge?.email as string, bhoomi.message);
+          // const response = await fetch("/api/notification");
+          // const prisma = new PrismaClient();
+          // const session = await auth();
+          // const user = await prisma.user.findFirst({
+          //   where: { id: session?.user.id },
+          // });
+          // const incharge = await prisma.user.findFirst({
+          //   where: { location: user?.location },
+          // });
+          // const bhoomi: any = await prisma.notification.create({
+          //   data: {
+          //     userId: incharge?.govId || "",
+          //     inchargeId: user?.govId || "",
+          //     message: `The following items in link are transferred by ${user?.name} from govId ${incharge?.govId}  ${imageData}.`,
+          //   },
+          // });
+          // await sendingEmail(incharge?.email as string, bhoomi.message);
 
           // const s3 = new AWS.S3({
           //   accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
