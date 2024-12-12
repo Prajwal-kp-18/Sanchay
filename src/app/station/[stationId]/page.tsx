@@ -8,8 +8,9 @@ import { jsPDF } from "jspdf";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import { toast } from "react-toastify";
 import { NextResponse } from "next/server";
-
-
+import { PrismaClient } from "@prisma/client";
+import { auth } from "../../../../auth";
+import { sendingEmail } from "@/lib/mail";
 
 interface Package {
   itemId: string;
@@ -85,27 +86,26 @@ const ViewInventoryIndividual = () => {
     (item) => selectedItems[item.itemId],
   );
 
-
-  const EquipmentDetails: React.FC<EquipmentDetailsProps> = async({
+  const EquipmentDetails: React.FC<EquipmentDetailsProps> = ({
     equipment,
     excludeNullValues,
   }) => {
-    return (
-      <>
-        {Object.keys(equipment).map((key) => {
-          const values = excludeNullValues(equipment[key]);
-          return (
-            values && (
-              <div key={key}>
-                {values.split(",").map((value, idx) => (
-                  <div key={idx}>{value.trim()}</div>
-                ))}
-              </div>
-            )
-          );
-        })}
-      </>
-    );
+    // Process the equipment details synchronously
+    const processedEquipment = Object.keys(equipment).map((key) => {
+      const values = excludeNullValues(equipment[key]);
+      if (values) {
+        return (
+          <div key={key}>
+            {values.split(",").map((value, idx) => (
+              <div key={idx}>{value.trim()}</div>
+            ))}
+          </div>
+        );
+      }
+      return null; // Return null if values is falsy
+    });
+
+    return <>{processedEquipment}</>;
   };
 
   const handleCheckboxChange = (id: string | number) => {
@@ -114,18 +114,17 @@ const ViewInventoryIndividual = () => {
       [id]: !prev[id],
     }));
   };
-  const handleConfirmTransfer = async () => {
+  const handleConfirmTransfer = () => {
     const selectedIds = Object.keys(selectedItems).filter(
       (id) => selectedItems[id],
     );
 
     // Filter the details of the selected items from the packageData
-    // const selectedDetails = packageData.filter((item) =>
-    //   selectedIds.includes(item.itemId)
-    // );
+    const selectedDetails = packageData.filter((item) =>
+      selectedIds.includes(item.itemId),
+    );
 
     // Display the selected items' details in the form
-
     if (selectedDetails.length > 0) {
       setSelectedTransferDetails(selectedDetails); // Assuming this state is used to display the details in the form
       setFormVisible(true); // Trigger the form modal visibility
@@ -133,35 +132,37 @@ const ViewInventoryIndividual = () => {
       console.warn("No items selected for transfer.");
     }
 
-
-    try {
-      const response = await fetch("/api/Transfer/updateIssuedTo", {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          itemIds: selectedIds,
-          location: transferLocation,
-        }),
+    // Perform the async operation (e.g., update inventory) using .then() and .catch()
+    fetch("/api/Transfer/updateIssuedTo", {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        itemIds: selectedIds,
+        location: transferLocation,
+      }),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to update inventory");
+        }
+        return response.json(); // Return the response JSON to process further
+      })
+      .then((updatedInventory) => {
+        console.log("Inventory updated:", updatedInventory);
+      })
+      .catch((error) => {
+        console.error("Error saving edited data:", error);
       });
-
-      if (!response.ok) {
-        throw new Error("Failed to update inventory");
-      }
-
-      const updatedInventory = await response.json();
-      console.log("Inventory updated:", updatedInventory);
-    } catch (error) {
-      console.error("Error saving edited data:", error);
-    }
-    // Reset the state
-    // setFormVisible(true);
-    // setTransferMode(false);
-    // setSelectedItems({});
-    // setTransferLocation("");
-    // setIsModalOpen(false);
   };
+
+  // Reset the state
+  // setFormVisible(true);
+  // setTransferMode(false);
+  // setSelectedItems({});
+  // setTransferLocation("");
+  // setIsModalOpen(false);
 
   const handleCancelTransfer = () => {
     setTransferMode(false);
@@ -172,47 +173,74 @@ const ViewInventoryIndividual = () => {
     setIsModalOpen(false);
   };
 
-  
-
-  const handleDownloadAsImage = async () => {
+  const handleDownloadAsImage = () => {
     const formElement = document.getElementById("transfer-form");
+
     if (formElement) {
-      html2canvas(formElement).then((canvas) => {
-        const link = document.createElement("a");
-        setFile(link);
-        link.download = "transfer-details.png";
-        link.href = canvas.toDataURL("image/png");
-        link.click();
-        setFile(canvas);
-      });
+      // Use html2canvas to create a canvas from the form element
+      html2canvas(formElement)
+        .then(async (canvas) => {
+          const link = document.createElement("a");
+          link.download = "transfer-details.png";
+          link.href = canvas.toDataURL("image/png");
+          link.click(); // Trigger the download
 
-      
+          const imageData = canvas.toDataURL("image/png").split(",")[1];
 
-      const imageData = file.split(",")[1];
-      // Upload to AWS S3
-      const params: any = {
-        Bucket: process.env.S3_BUCKET_NAME,
-        Key: `transfer-details.pdf`, // Unique file name
-        Body: Buffer.from(imageData),
-        ContentType: "image/png",
-      };
-    
-    try {
+          const response = await fetch("/api/notification");
+          const prisma = new PrismaClient();
+          const session = await auth();
+          const user = await prisma.user.findFirst({
+            where: { id: session?.user.id },
+          });
+          const incharge = await prisma.user.findFirst({
+            where: { location: user?.location },
+          });
+          const bhoomi: any = await prisma.notification.create({
+            data: {
+              userId: incharge?.govId || "",
+              inchargeId: user?.govId || "",
+              message: `The following items in link are transferred by ${user?.name} from govId ${incharge?.govId}  ${imageData}.`,
+            },
+          });
+          await sendingEmail(incharge?.email as string, bhoomi.message);
 
-      const data = await s3.upload(params).promise();
-     
-      console.log(`File uploaded successfully. ${data.Location}`);
-      
-      const imageUrl = data.Location;
-  
-     
-  
-      return NextResponse.json(
-        { message: "Contract updated successfully" },
-        { status: 200 }
-      );
-  
-      /* API call not mandatory
+          // const s3 = new AWS.S3({
+          //   accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
+          //   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
+          //   region: process.env.AWS_REGION!,
+          // });
+
+          // const uploadToS3 = (base64Data: string, mimeType: string) => {
+          //   const buffer = Buffer.from(base64Data, 'base64'); // Decode the base64 string to binary data
+
+          //   const params = {
+          //     Bucket: process.env.S3_BUCKET_NAME!,
+          //     Key: `${Date.now()}_image.${mimeType.split('/')[1]}`, // Unique file name
+          //     Body: buffer,
+          //     ContentType: mimeType,
+          //     ACL: 'public-read', // Make the file publicly accessible
+          //   };
+
+          //   return s3.upload(params).promise();
+          // };
+
+          // uploadToS3(imageData, MimeType);
+
+          // Return the response from the S3 upload
+          return NextResponse.json(
+            { message: "file uploaded successfully" },
+            { status: 200 },
+          );
+        })
+        .catch((error) => {
+          console.error(`Error uploading image: ${error}`);
+          throw error;
+        });
+    }
+  };
+
+  /* API call not mandatory
       try {
         const response = await fetch(
           process.env.URL + "/api/contract2/addContract2Url",
@@ -249,12 +277,6 @@ const ViewInventoryIndividual = () => {
         });
       }
         */
-    } catch (error) {
-      console.error(`Error uploading PDF: ${error}`);
-      throw error;
-    }}
-  };
-  
 
   // Decode stationId from URL params
   const stationId = params?.stationId
@@ -280,35 +302,42 @@ const ViewInventoryIndividual = () => {
   };
 
   useEffect(() => {
-    
-    const fetchData = async () => {
-
-
-      try {
-        const response = await fetch(`/api/station/${stationId}`, {
-          method: "GET",
-        });
-        if (response.ok) {
-          const data = await response.json();
+    // Start the data fetch when the component mounts or when `stationId` changes
+    const fetchData = () => {
+      fetch(`/api/station/${stationId}`, {
+        method: "GET",
+      })
+        .then((response) => {
+          if (response.ok) {
+            return response.json(); // Process the JSON data if the response is ok
+          } else {
+            // If the response is not OK, return default data
+            return defaultData;
+          }
+        })
+        .then((data) => {
+          // If data exists and has content, update the state with the fetched data
           if (data && data.length > 0) {
             setPackageData(data);
           } else {
-            setPackageData(defaultData);
+            setPackageData(defaultData); // Set default data if no data is found
           }
-        } else {
+        })
+        .catch((error) => {
+          // Handle errors during the fetch process
           setPackageData(defaultData);
-        }
-      } catch (error) {
-        setPackageData(defaultData);
-        toast.error("Error searching the station", {
-          position: "top-right",
-          autoClose: 3000,
+          toast.error("Error searching the station", {
+            position: "top-right",
+            autoClose: 3000,
+          });
+          console.error("Error fetching data:", error);
+        })
+        .finally(() => {
+          setLoading(false); // Set loading to false after the fetch is complete
         });
-      } finally {
-        setLoading(false);
-      }
     };
 
+    // Call fetchData whenever stationId changes
     fetchData();
   }, [stationId]);
 
@@ -356,11 +385,11 @@ const ViewInventoryIndividual = () => {
           {loading ? (
             <p>Loading data...</p>
           ) : (
-            <table className="w-full table-auto">
+            <table className="w-full table-auto text-center">
               <thead>
-                <tr className="bg-gray-2 text-left dark:bg-meta-4">
+                <tr className="bg-gray-2 text-left dark:bg-meta-4 ">
                   {[
-                    { name: "Item Id", minWidth: "220px" },
+                    { name: "Item Id", minWidth: "120px" },
                     { name: "Category", minWidth: "120px" },
                     { name: "Type", minWidth: "150px" },
                     { name: "Quantity", minWidth: "120px" },
@@ -396,23 +425,23 @@ const ViewInventoryIndividual = () => {
               <tbody>
                 {packageData.map((item, index) => (
                   <tr key={item.itemId}>
-                    <td className="border p-1">{item.itemId}</td>
-                    <td className="border p-1">{item.category}</td>
-                    <td className="border p-1">{item.type}</td>
-                    <td className="border p-1">{item.quantity}</td>
-                    <td className="border p-1">{item.condition}</td>
-                    <td className="border p-1">{item.location}</td>
-                    <td className="border p-1">{item.acquisitionDate}</td>
-                    <td className="border p-1">{item.expiryDate}</td>
-                    <td className="border p-1">{item.price}</td>
-                    <td className="border p-1">{item.supplier}</td>
-                    <td className="border p-1">{item.returnDate}</td>
-                    <td className="border p-1">{item.lastInspectionDate}</td>
-                    <td className="border p-1">{item.maintenanceSchedule}</td>
-                    <td className="border p-1">{item.maintenanceCharge}</td>
-                    <td className="border p-1">{item.issuedTo}</td>
-                    <td className="border p-1">{item.userId}</td>
-                    <td className="border-b border-[#eee] px-4 py-5 dark:border-strokedark">
+                    <td className=" p-1">{item.itemId}</td>
+                    <td className=" p-1">{item.category}</td>
+                    <td className=" p-1">{item.type}</td>
+                    <td className=" p-1">{item.quantity}</td>
+                    <td className=" p-1">{item.condition}</td>
+                    <td className=" p-1">{item.location}</td>
+                    <td className=" p-1">{item.acquisitionDate}</td>
+                    <td className=" p-1">{item.expiryDate}</td>
+                    <td className=" p-1">{item.price}</td>
+                    <td className=" p-1">{item.supplier}</td>
+                    <td className=" p-1">{item.returnDate}</td>
+                    <td className=" p-1">{item.lastInspectionDate}</td>
+                    <td className=" p-1">{item.maintenanceSchedule}</td>
+                    <td className=" p-1">{item.maintenanceCharge}</td>
+                    <td className=" p-1">{item.issuedTo}</td>
+                    <td className=" p-1">{item.userId}</td>
+                    <td className=" px-4 py-5 ">
                       {editMode === index ? (
                         <input
                           type="text"
@@ -441,7 +470,7 @@ const ViewInventoryIndividual = () => {
                       )}
                     </td>
                     {transferMode ? (
-                      <td className="border p-2">
+                      <td className=" p-2">
                         <input
                           type="checkbox"
                           checked={selectedItems[item.itemId] || false}
@@ -488,7 +517,10 @@ const ViewInventoryIndividual = () => {
                 <label className="mb-2 block text-sm font-medium text-black dark:text-white">
                   Location (Police Station)
                 </label>
-                <select value={transferLocation} onChange={(e) => setTransferLocation(e.target.value)}>
+                <select
+                  value={transferLocation}
+                  onChange={(e) => setTransferLocation(e.target.value)}
+                >
                   <option value="" disabled>
                     Select a police station
                   </option>
@@ -502,7 +534,7 @@ const ViewInventoryIndividual = () => {
               <div className="mt-4">
                 <button
                   onClick={handleConfirmTransfer}
-                  className={`rounded bg-blue-500 p-2 text-white ${transferLocation === "" ? "opacity-50 cursor-not-allowed" : ""}`}
+                  className={`rounded bg-blue-500 p-2 text-white ${transferLocation === "" ? "cursor-not-allowed opacity-50" : ""}`}
                   disabled={transferLocation === ""}
                 >
                   Confirm Transfer
@@ -516,63 +548,62 @@ const ViewInventoryIndividual = () => {
               </button>
             </div>
           </div>
-      
         )}
-      {formVisible && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-600 bg-opacity-50">
-          <div
-            id="transfer-form"
-            className="w-full max-w-3xl rounded bg-white p-6 shadow-lg"
-          >
-            <h3 className="mb-4 text-xl font-bold">Transfer Details</h3>
-            <p className="mb-2">Location: {transferLocation}</p>
-            <table className="w-full table-auto border-collapse border border-gray-300">
-              <thead>
-                <tr>
-                  <th className="border border-gray-300 px-4 py-2">
-                    Item ID
-                  </th>
-                  <th className="border border-gray-300 px-4 py-2">
-                    Category
-                  </th>
-                  <th className="border border-gray-300 px-4 py-2">Type</th>
-                </tr>
-              </thead>
-              <tbody>
-                {selectedDetails.map((item) => (
-                  <tr key={item.itemId}>
-                    <td className="border border-gray-300 px-4 py-2">
-                      {item.itemId}
-                    </td>
-                    <td className="border border-gray-300 px-4 py-2">
-                      {item.category}
-                    </td>
-                    <td className="border border-gray-300 px-4 py-2">
-                      {item.type}
-                    </td>
+        {formVisible && (
+          <div className="fixed inset-0 flex items-center justify-center bg-gray-600 bg-opacity-50">
+            <div
+              id="transfer-form"
+              className="w-full max-w-3xl rounded bg-white p-6 shadow-lg"
+            >
+              <h3 className="mb-4 text-xl font-bold">Transfer Details</h3>
+              <p className="mb-2">Location: {transferLocation}</p>
+              <table className="w-full table-auto border-collapse border border-gray-300">
+                <thead>
+                  <tr>
+                    <th className="border border-gray-300 px-4 py-2">
+                      Item ID
+                    </th>
+                    <th className="border border-gray-300 px-4 py-2">
+                      Category
+                    </th>
+                    <th className="border border-gray-300 px-4 py-2">Type</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-            <div className="mt-4 flex justify-end">
-              <button
-                onClick={handleDownloadAsImage}
-                className="rounded bg-green-500 p-2 text-white"
-              >
-                Download as Image
-              </button>
-              <button
-                onClick={() => setFormVisible(false)}
-                className="ml-2 rounded bg-gray-500 p-2 text-white"
-              >
-                Cancel
-              </button>
+                </thead>
+                <tbody>
+                  {selectedDetails.map((item) => (
+                    <tr key={item.itemId}>
+                      <td className="border border-gray-300 px-4 py-2">
+                        {item.itemId}
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2">
+                        {item.category}
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2">
+                        {item.type}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <div className="mt-4 flex justify-end">
+                <button
+                  onClick={handleDownloadAsImage}
+                  className="rounded bg-green-500 p-2 text-white"
+                >
+                  Download as Image
+                </button>
+                <button
+                  onClick={() => setFormVisible(false)}
+                  className="ml-2 rounded bg-gray-500 p-2 text-white"
+                >
+                  Cancel
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
-    </div >
   );
 };
 

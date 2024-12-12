@@ -219,7 +219,8 @@ const MapComponent: React.FC = () => {
       const marker = L.marker([station.lat, station.long])
         .addTo(mapRef.current!)
         .on("click", () => {
-          alert(`${item.location} - Quantity: ${item.quantity}`);
+          // Redirect to a dynamic page based on the location
+          window.location.href = `/station/${item.location}`;
         });
 
       const popup = L.popup({
@@ -253,9 +254,9 @@ const MapComponent: React.FC = () => {
   };
 
   return (
-    <div className="relative">
-      <div className="mx-auto mb-6 max-w-4xl rounded-lg border border-gray-300 bg-white px-6 py-4 shadow-lg">
-        <div className="mb-4 flex items-center">
+    <div className="relative ">
+      <div className=" mx-auto mb-6 max-w-4xl rounded-lg border border-gray-300 bg-white px-6 py-4 shadow-lg dark:bg-boxdark-2 ">
+        <div className=" mb-4 flex items-center ">
           <select
             className="mr-4 rounded-lg border px-4 py-2 text-sm focus:outline-none"
             value={selectedCategory}
