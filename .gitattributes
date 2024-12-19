@@ -1,1 +1,4 @@
 *.py linguist-detectable=false
+*.pyx linguist-detectable=false
+*.pxd linguist-detectable=false
+*.pxi linguist-detectable=false
