@@ -78,11 +78,15 @@ SurakshaSanchay is a comprehensive hardware inventory management system designed
 1. Clone the repository:
    ```bash
    git clone https://github.com/BhoomiAgrawal12/SurakshaSanchay
-
+   ```
 ### Navigate to the project directory:
+```bash
 cd SurakshaSanchay
+```
 ### install dependencies:
+```bash
 npm install
+```
 ### Set up environment variables:
 ### Create a .env file in the root directory.
 ### Add the following variables:
